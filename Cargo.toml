@@ -1,0 +1,14 @@
+[package]
+name = "rdcl-number-analyzer"
+version = "0.1.0"
+authors = ["Ruud van der Weide <rj@rdcl.dev>"]
+edition = "2018"
+description = "Command line tool that analyses numbers."
+license = "MIT OR Apache-2.0"
+default-run = "number-analyzer"
+
+[[bin]]
+name = "number-analyzer"
+path = "./src/main.rs"
+
+[dependencies]
